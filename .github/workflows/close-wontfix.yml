@@ -2,7 +2,7 @@ name: Auto-close wontfix issues
 
 on:
   issues:
-    types: [labeled]
+    types: [opened, labeled]
 
 jobs:
   close-wontfix:
